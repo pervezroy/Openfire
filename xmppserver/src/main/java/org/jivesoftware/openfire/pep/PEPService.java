@@ -100,7 +100,7 @@ public class PEPService implements PubSubService, Cacheable {
      * Returns the permission policy for creating nodes. A true value means that
      * not anyone can create a node, only the service admin.
      */
-    private boolean nodeCreationRestricted = true;
+    private boolean nodeCreationRestricted = false;
 
     /**
      * Keep a registry of the presence's show value of users that subscribed to
